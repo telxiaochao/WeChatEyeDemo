@@ -96,9 +96,10 @@ static  BOOL circle =YES;
     if (!self.isRefreshing) {
         self.refreshing = YES;
         self.monitorDraggingTimer = [NSTimer timerWithTimeInterval:0.01 target:self selector:@selector(monitorSuperviewDragging) userInfo:nil repeats:YES];
+        [[NSRunLoop currentRunLoop] addTimer:self.monitorDraggingTimer forMode:NSRunLoopCommonModes];
         if (self.monitorDraggingTimer) {
             [self.monitorDraggingTimer fire];
-            [[NSRunLoop currentRunLoop] addTimer:self.monitorDraggingTimer forMode:NSRunLoopCommonModes];
+            
         }
         [self sendActionsForControlEvents:UIControlEventValueChanged];
         if (self.updatingAnimation) {
