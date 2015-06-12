@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37D3EE9B1B299A3B000ED829 /* XCRefreshBaseControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D3EE9A1B299A3B000ED829 /* XCRefreshBaseControl.m */; };
+		37D3EEA11B299C64000ED829 /* XCPathAnimationControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D3EEA01B299C64000ED829 /* XCPathAnimationControl.m */; };
 		37E92BFC1B28058A00B42721 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E92BFB1B28058A00B42721 /* main.m */; };
 		37E92BFF1B28058A00B42721 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E92BFE1B28058A00B42721 /* AppDelegate.m */; };
 		37E92C021B28058A00B42721 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E92C011B28058A00B42721 /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37D3EE991B299A3B000ED829 /* XCRefreshBaseControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCRefreshBaseControl.h; sourceTree = "<group>"; };
+		37D3EE9A1B299A3B000ED829 /* XCRefreshBaseControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCRefreshBaseControl.m; sourceTree = "<group>"; };
+		37D3EE9F1B299C64000ED829 /* XCPathAnimationControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPathAnimationControl.h; sourceTree = "<group>"; };
+		37D3EEA01B299C64000ED829 /* XCPathAnimationControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPathAnimationControl.m; sourceTree = "<group>"; };
 		37E92BF61B28058A00B42721 /* WeChatEyeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatEyeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E92BFA1B28058A00B42721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37E92BFB1B28058A00B42721 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +91,10 @@
 				37E92BFE1B28058A00B42721 /* AppDelegate.m */,
 				37E92C001B28058A00B42721 /* ViewController.h */,
 				37E92C011B28058A00B42721 /* ViewController.m */,
+				37D3EE991B299A3B000ED829 /* XCRefreshBaseControl.h */,
+				37D3EE9A1B299A3B000ED829 /* XCRefreshBaseControl.m */,
+				37D3EE9F1B299C64000ED829 /* XCPathAnimationControl.h */,
+				37D3EEA01B299C64000ED829 /* XCPathAnimationControl.m */,
 				37E92C031B28058A00B42721 /* Main.storyboard */,
 				37E92C061B28058A00B42721 /* Images.xcassets */,
 				37E92C081B28058A00B42721 /* LaunchScreen.xib */,
@@ -222,6 +232,8 @@
 				37E92C021B28058A00B42721 /* ViewController.m in Sources */,
 				37E92BFF1B28058A00B42721 /* AppDelegate.m in Sources */,
 				37E92BFC1B28058A00B42721 /* main.m in Sources */,
+				37D3EEA11B299C64000ED829 /* XCPathAnimationControl.m in Sources */,
+				37D3EE9B1B299A3B000ED829 /* XCRefreshBaseControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +426,7 @@
 				37E92C1B1B28058A00B42721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37E92C1C1B28058A00B42721 /* Build configuration list for PBXNativeTarget "WeChatEyeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +435,7 @@
 				37E92C1E1B28058A00B42721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
